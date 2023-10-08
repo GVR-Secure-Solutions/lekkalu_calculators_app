@@ -11,6 +11,7 @@
 		B19620D32AD3194600A01EFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19620D22AD3194600A01EFC /* ContentView.swift */; };
 		B19620D52AD3194700A01EFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B19620D42AD3194700A01EFC /* Assets.xcassets */; };
 		B19620D82AD3194700A01EFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B19620D72AD3194700A01EFC /* Preview Assets.xcassets */; };
+		B19620DF2AD33E9F00A01EFC /* UserInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19620DE2AD33E9F00A01EFC /* UserInputView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		B19620D22AD3194600A01EFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B19620D42AD3194700A01EFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B19620D72AD3194700A01EFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B19620DE2AD33E9F00A01EFC /* UserInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInputView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				B19620D02AD3194600A01EFC /* Personal_Finance_CalculatorsApp.swift */,
 				B19620D22AD3194600A01EFC /* ContentView.swift */,
+				B19620DE2AD33E9F00A01EFC /* UserInputView.swift */,
 				B19620D42AD3194700A01EFC /* Assets.xcassets */,
 				B19620D62AD3194700A01EFC /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B19620D32AD3194600A01EFC /* ContentView.swift in Sources */,
+				B19620DF2AD33E9F00A01EFC /* UserInputView.swift in Sources */,
 				B19620D12AD3194600A01EFC /* Personal_Finance_CalculatorsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
