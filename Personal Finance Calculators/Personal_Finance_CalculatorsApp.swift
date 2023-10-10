@@ -11,7 +11,8 @@ import SwiftUI
 struct Personal_Finance_CalculatorsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //            EmiCalculatorView()
+            SipCalculatorView()
         }
     }
 }
