@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct EmiCalculatorView: View {
     @State private var principal:Double = 5000000
     @State private var interest_rate:Double = 9
     @State private var tenure:Double = 20
@@ -81,5 +81,5 @@ struct ContentView: View {
 
 
 #Preview {
-    ContentView()
+    EmiCalculatorView()
 }
