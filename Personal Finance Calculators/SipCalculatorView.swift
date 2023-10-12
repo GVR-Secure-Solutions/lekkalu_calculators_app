@@ -53,6 +53,7 @@ struct SipCalculatorView: View {
                         Text("Absolute Return on Investment: " + String(format: "%.2f", absolute_roi ) + "%")
                         Text("Investment Total: " + String(format: "%.2f", investment))
                         Text("Maturity Value: " + String(format: "%.2f", maturity))
+                        NavigationLink("Go to EMI Calculator", destination: EmiCalculatorView())
                     }
                     .onChange(of: monthly_investment) {
                         calculate_sip_returns()

@@ -11,8 +11,16 @@ import SwiftUI
 struct Personal_Finance_CalculatorsApp: App {
     var body: some Scene {
         WindowGroup {
-            //            EmiCalculatorView()
-            SipCalculatorView()
+            NavigationView{
+                List {
+                    NavigationLink("Loan EMI", destination: EmiCalculatorView())
+                    NavigationLink("SIP Returns", destination: SipCalculatorView())
+                }
+                .listStyle(SidebarListStyle())
+                
+                Text("Select a view")
+                    .font(.headline)
+            }
         }
     }
 }
