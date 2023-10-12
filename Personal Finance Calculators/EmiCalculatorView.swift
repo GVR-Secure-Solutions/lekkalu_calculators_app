@@ -47,6 +47,7 @@ struct EmiCalculatorView: View {
                                       step: Binding.constant(1))
                         
                         Text("EMI: " + String(format: "%.2f", emi))
+                        NavigationLink("Go to SIP Calculator", destination: SipCalculatorView())
                     }
                     .onChange(of: principal) {
                         calculateEMI()
